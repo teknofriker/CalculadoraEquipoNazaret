@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<ImageView
+android:id="@+id/logoImageView"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"
+android:src="@drawable/tu_logo" />
+
+<GridLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:columnCount="3"
+android:rowCount="4">
+
+<Button
+    android:id="@+id/button7"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="7" />
+
+<Button
+    android:id="@+id/button8"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="8" />
+
+<Button
+    android:id="@+id/button9"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="9" />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="4" />
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="5" />
+
+<Button
+    android:id="@+id/button6"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="6" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="1" />
+
+<Button
+    android:id="@+id/button2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="2" />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:text="3" />
+
+<Button
+    android:id="@+id/button0"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_columnWeight="1"
+    android:layout_columnSpan="3"
+    android:text="0" />
+
+</GridLayout>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal">
+
+<Button
+    android:id="@+id/clearButton"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Limpiar" />
+
+<Button
+    android:id="@+id/resultButton"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Resultado" />
+
+</LinearLayout>
+
+    </LinearLayout>
